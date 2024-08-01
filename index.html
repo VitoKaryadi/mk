@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <title>Media Katolik</title>
+    <style>
+        body {
+            font-family: 'Montserrat';
+            margin: 0;
+            background-color: #3b5998; /* Blue background color */
+            color: #fff; /* White text color */
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border-radius: 16px;
+            box-shadow: 4px 6px #00000025;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #3b5998;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #f0f0f0;
+        }
+        footer {
+            background-color: #3b5998;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Media Katolik</h1>
+        <h2>Media ini sedang dalam proses pembuatan</h2>
+        <h2>Mohon menunggu!</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/gWKgoQwktnA?si=RdnHBjOPKZsR4j4i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Simak video di atas tentang cinta kasih dan memaafkan sesama manusia dalam kehidupan umat Katolik!</p>
+        <a href="https://youtu.be/gWKgoQwktnA" target="_blank" class="button">TONTON SELENGKAPNYA..</a>
+    </div>
+    <footer>
+        <p>Copyright 2024 by Media Katolik | All Right Reserved</p>
+    </footer>
+</body>
+</html>
